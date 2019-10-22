@@ -97,7 +97,62 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#wrapper{
+  width:960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: SansSerif, "Helsinki", Helsinki;
+  font-size: 17px;
+  line-height: 29px;
+}
 
+#primaryLinks{
+  height: 100px;
+  line-height: 100px;
+}
+.firstLink {
+  padding-left: 0px;
+}
+.middleLink {
+  padding-left: 220px;
+}
+
+#primaryLinks li{
+  display: inline;
+
+}
+
+#primaryLinks menu{
+  padding: 0px;
+}
+#content{
+  width: 593px;
+  float: left;
+}
+#sidebarImage img{
+  width: 300px;
+}
+#sidebarImage{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#sidebar{
+  width: 367px;
+  float: left;
+}
+#footer{
+  clear: left;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+.firstHeading {
+  margin-top: 0px;
+}
+.red{
+  color: red;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
