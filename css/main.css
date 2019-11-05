@@ -128,6 +128,7 @@ textarea {
 #content{
   width: 593px;
   float: left;
+  padding-top: 20px;
 }
 #sidebarImage img{
   width: 300px;
@@ -135,6 +136,7 @@ textarea {
 #sidebarImage{
   margin-left: 20px;
   margin-right: 20px;
+  padding-top: 20px;
 }
 
 #sidebar{
@@ -152,6 +154,22 @@ textarea {
 }
 .red{
   color: red;
+}
+.grBig {
+  width: 593px;
+}
+.grSmall {
+  width: 367px;
+}
+#masthead {
+  height: 78px;
+  background-size: cover;
+  background: url(../img/background.jpg) no-repeat;
+  background-position-y: center;
+}
+
+.floatLeft {
+  float: left;
 }
 /* ==========================================================================
    Helper classes
